@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Eagle+Lake);
+@import url(http://fonts.googleapis.com/css?family=Caesar+Dressing);
+
+header{
+  font-family: 'Caesar Dressing', cursive;
+  text-align:center;
+}
+
+body{
+  color:#E5E4E2;
+  font-family: 'Eagle Lake', cursive;
+  background-image:url(images/tile.jpg);
+}
+
+table{
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  border: 5px double red;
+}
+
+thead{
+  font-size: 18px;
+}
+
+h1{
+  font-size:600%;
+  margin:10px;
+}
+
+h2{
+  font-size:400%;
+  margin:10px;
+}
+
+h3{
+  font-size:200%;
+  margin:10px;
+}
+
+img{
+  border-style:ridge;
+  border-width:large;
+  border-radius:10px;
+  margin:1px;
+}
+
+footer a{
+  border-style:ridge;
+  border-width:ridge;
+  border-radius:10px;
+  background-color:grey;
+  padding:3px;
+  letter-spacing:2px;
+  color:black;
+}
+
+footer a:hover{
+  background-color:blue;
+  color:white;
+}
